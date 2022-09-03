@@ -1,11 +1,14 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import ExpenseItem from './components/ExpenseItem';
+import './style.css';
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h2>Let's get started!</h2>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
+
+export default App;
