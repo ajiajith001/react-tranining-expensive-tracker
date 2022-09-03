@@ -1,6 +1,5 @@
 import React from 'react';
 import ExpenseItem from './components/ExpenseItem';
-import './style.css';
 
 function App() {
   return (
